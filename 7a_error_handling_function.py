@@ -1,10 +1,3 @@
-"""
-Emotion detection module using Watson NLP API.
-"""
-
-import requests
-
-
 def emotion_detector(text_to_analyze):
     if text_to_analyze is None or text_to_analyze.strip() == "":
         return {

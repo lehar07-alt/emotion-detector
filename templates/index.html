@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotion Detector</title>
+</head>
+<body>
+    <h1>Emotion Detector</h1>
+
+    <form action="/" method="get">
+        <label>Enter text:</label>
+        <input type="text" name="textToAnalyze">
+        <button type="submit">Detect Emotion</button>
+    </form>
+
+    {% if result %}
+        <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>

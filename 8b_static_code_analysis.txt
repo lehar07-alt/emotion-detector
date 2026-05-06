@@ -1,0 +1,4 @@
+PS C:\Users\asus\emotion-detector> python -m pylint server.py
+
+------------------------------------------------------------------
+Your code has been rated at 9.29/10 (previous run: 7.86/10, +1.43)

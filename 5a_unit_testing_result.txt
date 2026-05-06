@@ -1,0 +1,6 @@
+PS C:\Users\asus\emotion-detector> python -m unittest test_emotion_detection.py
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 2.341s
+
+OK
